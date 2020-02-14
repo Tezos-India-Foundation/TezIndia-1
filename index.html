@@ -10,6 +10,18 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <style>
+      .harappa {
+        visibility:hidden;
+        opacity:0;
+        transition:visibility 0.3s linear,opacity 0.3s linear;
+      }
+
+      .logo:hover + .harappa {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
   </head>
   <body class="is-preload">
     <!-- Page Wrapper -->
@@ -38,8 +50,8 @@
       <!-- Banner -->
       <section id="banner">
         <div class="inner">
-          <div class="logo"><img src="images/TEZindia-white.png" style= "width: 90% ;"/></div>
-          <!-- <h2>TEZIndia 1.0</h2> -->
+          <div class="logo"><img src="images/tezLogoHarappa.png" style= "width: 90% ;"/></div>
+          <blockquote class="harappa">Harappa was the center of one of the core regions of the Indus Valley Civilisation, One of the oldest city of ancient INDIA</blockquote>
           <p>
             India's First Online Hackathon On
             <a href="http://tezosindia.foundation">Tezos </a>
